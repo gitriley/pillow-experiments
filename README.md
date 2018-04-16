@@ -18,29 +18,32 @@ For example:
 $ combine.py img1.jpg img2.jpg 8 vertical save 
 ```
 
+Note: It is best to use similarly sized images. If the images are different sizes, the larger image will always be cropped to the size of the smaller image.
+
+
 ### What's the purpose of the program?:
 This program is just for fun. I was learning python for work and wanted a small side project to get comfortable with the language. I'd always wondered about combining image like this in Photoshop, but it would take hours of meticulous work in Photoshop to create a single composite image. It's much quicker with code.
 
-The majority of images will look like garbage when combined, but if you carefully select photos, you can create some decent images.
+Turns out the majority of images will look like garbage when combined, but if you carefully select photos, you can create some decent images.
 
 ### Actual Examples:
 
 combine two photos:
-![Alt text](sunset1.jpg?raw=true "Sunset")
-![Alt text](moon.jpg?raw=true "Moon")
+![Alt text](images/sunset1.jpg?raw=true "Sunset")
+![Alt text](images/moon.jpg?raw=true "Moon")
 result:
-![Alt text](moonsunjet.jpg?raw=true "Combined")
+![Alt text](images/moonsunjet.jpg?raw=true "Combined")
 **(top two photos by [Charlotte Curd](https://www.instagram.com/charlottecurd/))**
 
 
 combine a photo of Mount Fuji with itself, but flip one 180 degrees:
-![Alt text](fuji.jpg?raw=true "Mount Fuji")
+![Alt text](images/fuji.jpg?raw=true "Mount Fuji")
 
 result:
 
-![Alt text](fujiflip.jpg?raw=true "Mount Fuji")
+![Alt text](images/fujiflip.jpg?raw=true "Mount Fuji")
 
 More examples:
-![Alt text](birdonbeach.jpg?raw=true "img")
-![Alt text](jet.png?raw=true "img")
-![Alt text](fujisun.jpg?raw=true "img")
+![Alt text](images/birdonbeach.jpg?raw=true "img")
+![Alt text](images/jet.png?raw=true "img")
+![Alt text](images/fujisun.jpg?raw=true "img")
