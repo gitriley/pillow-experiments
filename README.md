@@ -39,3 +39,8 @@ combine a photo of Mount Fuji with itself, but flip one 180 degrees:
 result:
 
 ![Alt text](fujiflip.jpg?raw=true "Mount Fuji")
+
+More examples:
+![Alt text](birdonbeach.jpg?raw=true "img")
+![Alt text](jet.png?raw=true "img")
+![Alt text](fujisun.jpg?raw=true "img")
