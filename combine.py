@@ -1,5 +1,6 @@
 from PIL import Image
 import os
+import sys
 '''
 truths/variables...
 
@@ -141,30 +142,16 @@ def smallestW(img1, img2):
 	else:
 		return img2.width
 
-better = Image.new("RGB",(1100,1100))
-im1 = Image.open('hannah.png')
-#rotated = im1.rotate(90)
-im2 = Image.open('sketch.png')
-im3 = Image.open('ig6.png')
-im4 = Image.open('gradient2.png')
-im3 = im3.rotate(180)
+im1 = Image.open(sys.argv[1])
+im2 = Image.open(sys.argv[2])
 
-combo = combine(im1, im2, 12, 'horizontal')
 
-#combo.show()
-#combo.save('color2.jpg')
+combo = combine(im1, im2, int(sys.argv[3]), sys.argv[4])
 
-#combo = combo.rotate(45)
-crossed = combine(combo, im2, 12, 'vertical')
-print(crossed.histogram())
-crossed.show()
-#crossed.save('yeep.jpg')
+combo.show()
 
-'''
-rotated = combo.rotate(0)
-rotated2 = im2.rotate(45)
-rotated = combine(rotated2, rotated, 4, 'vertical')
-rotated.show()
-#rotated.save('combo4.jpg')
-'''
+if len(sys.argv) == 6 and sys.argv[5] == 'save':
+	import time
+	combo.save('output_{}.png'.format(int(time.time())))
+
 
