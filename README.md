@@ -25,10 +25,14 @@ The majority of images will look like garbage when combined, but if you carefull
 
 ### Actual Examples:
 
+combine two photos:
 ![Alt text](sunset1.jpg?raw=true "Sunset")
 ![Alt text](moon.jpg?raw=true "Moon")
+result:
 ![Alt text](moonsunjet.jpg?raw=true "Combined")
 **(top two photos by [Charlotte Curd](https://www.instagram.com/charlottecurd/))**
 
+combine Mount Fuji and the same photo flipped 180 degrees:
 ![Alt text](fuji.jpg?raw=true "Mount Fuji")
+result:
 ![Alt text](fujiflip.jpg?raw=true "Mount Fuji")
