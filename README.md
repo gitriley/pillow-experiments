@@ -32,7 +32,10 @@ result:
 ![Alt text](moonsunjet.jpg?raw=true "Combined")
 **(top two photos by [Charlotte Curd](https://www.instagram.com/charlottecurd/))**
 
-combine Mount Fuji and the same photo flipped 180 degrees:
+
+combine a photo of Mount Fuji with itself, but flip one 180 degrees:
 ![Alt text](fuji.jpg?raw=true "Mount Fuji")
+
 result:
+
 ![Alt text](fujiflip.jpg?raw=true "Mount Fuji")
